@@ -18,11 +18,20 @@ body {
 
 /* animated blinking cursor */
 .typed-cursor{
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
 }
+
+.socialmedia {
+  margin-top: 10px;
+}
+
+.fa {
+  margin: 4px;
+}
+
 @keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
